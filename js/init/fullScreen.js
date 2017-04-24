@@ -1,0 +1,11 @@
+var x = screen.height-100 + "px";
+var y = screen.height+100 + "px";
+var z = screen.height- 180 + "px";
+$(".slika").css("height", x);
+$(".slika").css("background-size","100% "+x);
+$(".slika2").css("height", x);
+$(".slika2").css("background-size","100% "+x);
+$(".slika3").css("height", x);
+$(".slika3").css("background-size","100% "+y);
+$(".slika4").css("height", z);
+$(".slika4").css("background-size","100% "+x);

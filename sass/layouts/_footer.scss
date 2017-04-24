@@ -1,0 +1,99 @@
+.wrapFooter {
+  float:left;
+  position: relative; 
+  width: 100%;
+ }
+
+.footer {
+  background: black;
+  width: 100%;
+  float: left;
+  position: absolute;
+  bottom: -80px;
+  height: 80px; }
+
+.footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  margin-top: 20px;
+  float: left; }
+
+.footer ul li {
+  font-size: 12px;
+  text-transform: uppercase;
+  display: inline;
+  text-align: center;
+  width: 100px;
+  height: 40px;
+  padding: 20px; }
+
+.footer ul li:first-child {
+  font-size: 12px;
+  padding-left: 0px;
+  text-transform: uppercase;
+  display: inline;
+  text-align: center; }
+
+.footer a {
+  text-decoration: none;
+  /*padding: 20px;*/ }
+
+.footer i {
+  font-size: 30px;
+  color: white; }
+
+.menu-toggle {
+  background: none;
+  color: #333;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 25px; }
+
+.menu-toggle a {
+  text-decoration: none;
+  color: #333; }
+
+
+  .social {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 0 10px;
+  line-height: 50px;
+  font-family: Entypo;
+  font-size: 28px;
+  text-align: center;
+  color: #555;
+  border-radius: 50%;
+  background: #eee;
+  overflow: hidden;
+  cursor: pointer;
+  margin-top: 14px;
+}
+.facebook:hover{
+  color: #425F9C;
+  transition: all 0.2s ease-in;
+}
+
+.twitter:hover{
+  color: #1DA1F2;
+  transition: all 0.2s ease-in;
+}
+
+.linkedin:hover{
+  color: #1C87BD;
+  transition: all 0.2s ease-in;
+}
+
+.copyright{
+  margin-top: 28px;
+  cursor: pointer;
+}
+
+.copyright:hover{
+  color: white;
+  transition: all 0.4s ease-in;
+}

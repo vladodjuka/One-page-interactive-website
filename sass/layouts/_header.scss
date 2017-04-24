@@ -1,0 +1,175 @@
+body{
+  margin: 0px;
+}
+
+@import url('http://weloveiconfonts.com/api/?family=entypo');
+
+
+.slika { 
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../img/Layer 104.png");
+  background-size: 100% auto;
+  /* Set up proportionate scaling */
+  width: 100%;
+  float: left;
+  background-attachment: fixed; 
+  text-align: center;
+  margin: 0 auto;
+  }
+
+.slika3 {
+  background-image: url("../img/Layer 112.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* Set up proportionate scaling */
+  width: 100%;
+  float: left;
+  margin: 0 auto;
+  }
+ 
+
+.slika4 {
+  background-image: url("../img/Group 6.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* Set up proportionate scaling */
+  width: 100%;
+  float: left;
+  margin: 0 auto;
+  position: relative;
+  }
+
+  .slikaArhiva{
+    background-image: url('../img/pozadine/arhiva.png') !important;
+     background-size: 100% 100%;
+  background-repeat: no-repeat;
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: 668px;
+  float: left;
+  margin: 0 auto; 
+  }
+
+  .slikaPressClipping{
+    background-image: url('../img/pozadine/clipping 2.png') !important;
+     background-size: 100% 100%;
+  background-repeat: no-repeat;
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: 668px;
+  float: left;
+  margin: 0 auto; 
+  }
+
+  .slikaPressDigest{
+    background-image: url('../img/pozadine/clipping.png') !important;
+     background-size: 100% 100%;
+  background-repeat: no-repeat;
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: 668px;
+  float: left;
+  margin: 0 auto; 
+  }
+
+  .slikaAlertClipping{
+    background-image: url('../img/pozadine/alert clipping.png') !important;
+     background-size: 100% 100%;
+  background-repeat: no-repeat;
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: 668px;
+  float: left;
+  margin: 0 auto; 
+  }
+
+  .slikaMediaAnalysis{
+    background-image: url('../img/pozadine/media analisis.png') !important;
+     background-size: 100% 100%;
+  background-repeat: no-repeat;
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: 668px;
+  float: left;
+  margin: 0 auto; 
+  }
+
+  .slikaMonitoring{
+    background-image: url('../img/pozadine/monitoring reklamiranja.png') !important;
+     background-size: 100% 100%;
+  background-repeat: no-repeat;
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: 668px;
+  float: left;
+  margin: 0 auto; 
+  }
+
+  .slikaSocial{
+    background-image: url('../img/pozadine/Group 1 copy.png') !important;
+     background-size: 100% 100%;
+  background-repeat: no-repeat;
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: 668px;
+  float: left;
+  margin: 0 auto; 
+  }
+
+  .slikaIstrazivanje{
+    background-image: url('../img/pozadine/istrazivanje.png') !important;
+     background-size: 100% 100%;
+  background-repeat: no-repeat;
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: 668px;
+  float: left;
+  margin: 0 auto; 
+  }
+
+  .slikaPrevod{
+    background-image: url('../img/pozadine/prevod.png') !important;
+     background-size: 100% 100%;
+  background-repeat: no-repeat;
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: 668px;
+  float: left;
+  margin: 0 auto; 
+  }
+
+  .slikaTranskript{
+    background-image: url('../img/pozadine/Group 6.png') !important;
+    background-size: 100% 100%;
+  background-repeat: no-repeat;
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: 668px;
+  float: left;
+  margin: 0 auto; 
+  }
+
+.slika2 {
+  background-image: url("../img/pozadine/arhiva.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: 668px;
+  float: left;
+  margin: 0 auto; }
+
+
+.colCenter{
+  width: 740px;
+  margin:0 auto;
+}
+
+.left{
+  @extend .pull-left;
+}
+
+.right{
+  @extend .pull-right;
+}
